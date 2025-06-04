@@ -1,0 +1,67 @@
+# 環境変数ファイル（機密情報）
+.env
+.env.local
+.env.production
+.env.staging
+
+# Python仮想環境
+.venv/
+venv/
+env/
+
+# Python キャッシュファイル
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# IDEファイル
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS ファイル
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ログファイル
+*.log
+logs/
+
+# テスト関連
+.coverage
+.pytest_cache/
+.tox/
+
+# 一時ファイル
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Unity関連（将来のUnityプロジェクト用）
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+Assets/AssetStoreTools*
+
+# Visual Studio / Rider
+.vs/
+.rider/
+
+# Node.js関連（将来のフロントエンド用）
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log* 

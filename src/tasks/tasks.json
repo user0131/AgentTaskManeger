@@ -1,0 +1,54 @@
+{
+  "task_metadata": {
+    "title": "研究室Zoom会議準備タスク",
+    "total_steps": 7,
+    "description": "研究室でのオンライン会議を準備するための一連のタスク"
+  },
+  "tasks": {
+    "step1": {
+      "description": "中会議室のカギを開ける",
+      "completed": true,
+      "details": "会議室にアクセスするためにカギを使ってドアを開錠する"
+    },
+    "step2": {
+      "description": "MacBookと充電器とUSBポートを用意する",
+      "completed": true,
+      "details": "会議に必要な機器を準備し、適切に設置する"
+    },
+    "step3": {
+      "description": "みんながPCを充電する用の延長ケーブルをつなぐ",
+      "completed": true,
+      "details": "参加者全員がデバイスを充電できるように電源を確保する"
+    },
+    "step4": {
+      "description": "Macで研究室Zoomにつなぐ",
+      "completed": true,
+      "details": "Zoomミーティングに接続し、通信状況を確認する"
+    },
+    "step5": {
+      "description": "Owlカメラとyamahaのマイクとスクリーンつける",
+      "completed": true,
+      "details": "音響・映像機器を設置し、動作確認を行う"
+    },
+    "step6": {
+      "description": "こいつらをUSBポート介してUSBとHDMIでMacにつなぐ",
+      "completed": true,
+      "details": "全ての周辺機器をMacBookに接続し、認識確認する"
+    },
+    "step7": {
+      "description": "Zoomのカメラ＆マイクON",
+      "completed": true,
+      "details": "最終的にZoom設定でカメラとマイクを有効化する"
+    }
+  },
+  "task_order": [
+    "step1",
+    "step2",
+    "step3",
+    "step4",
+    "step5",
+    "step6",
+    "step7"
+  ],
+  "current_step": "step7"
+}
